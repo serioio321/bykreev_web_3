@@ -1,0 +1,29 @@
+.cover {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 320px;
+  max-width: calc(1280px - 48px * 2);
+  min-height: 740px;
+  margin: 0 auto;
+  align-self: center;
+}
+
+@media screen and (max-width: 1150px) {
+  .cover {
+    width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cover {
+    min-height: 200px;
+  }
+}
+
